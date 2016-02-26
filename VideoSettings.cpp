@@ -6,7 +6,7 @@
 VideoSettings::VideoSettings() :
     window_dimension(1920, 1080),
     window_position(0, 0) {
-    window_style = sf::Style::Fullscreen;
+    window_style = sf::Style::Fullscreen && sf::Style::None;
     framerate_limit = 60;
 }
 
