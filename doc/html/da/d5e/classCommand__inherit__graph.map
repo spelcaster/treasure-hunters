@@ -1,0 +1,9 @@
+<map id="Command" name="Command">
+<area shape="rect" id="node2" href="$df/d0b/classAttackCommand.html" title="AttackCommand. " alt="" coords="5,145,125,223"/>
+<area shape="rect" id="node3" href="$df/d85/classDefendCommand.html" title="DefendCommand. " alt="" coords="150,145,274,223"/>
+<area shape="rect" id="node4" href="$dc/dcb/classMoveDownCommand.html" title="MoveDownCommand. " alt="" coords="298,145,446,223"/>
+<area shape="rect" id="node5" href="$db/d8c/classMoveLeftCommand.html" title="MoveLeftCommand. " alt="" coords="469,145,605,223"/>
+<area shape="rect" id="node6" href="$df/d92/classMoveRightCommand.html" title="MoveRightCommand. " alt="" coords="630,145,775,223"/>
+<area shape="rect" id="node7" href="$db/d91/classMoveUpCommand.html" title="MoveUpCommand. " alt="" coords="800,145,931,223"/>
+<area shape="rect" id="node8" href="$dd/d30/classStartCommand.html" title="StartCommand. " alt="" coords="955,145,1066,223"/>
+</map>
