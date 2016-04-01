@@ -4,8 +4,9 @@ A game project
 ## Compile
 
 cd build;
-clang++ -g -Wall -o app ../*.cpp -std=c++11 -L/usr/include/SFML \
-    -lsfml-graphics -lsfml-window -lsfml-system;
+clang++ -std=c++14 -O2 -Wall -Wextra -Wpedantic -I. -UDEBUG -UTEST -o game \
+    ../*.cpp -lsfml-graphics -lsfml-window -lsfml-audio -lsfml-network \
+        -lsfml-system;
 
 ### TODO
 
