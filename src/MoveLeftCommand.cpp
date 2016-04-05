@@ -1,7 +1,7 @@
 // Copyright 2015 <https://github.com/spelcaster>
 
-#include "include/MoveLeftCommand.hpp"
-#include "include/Player.hpp"
+#include "../include/MoveLeftCommand.hpp"
+#include "../include/Player.hpp"
 
 /*!
  * @brief Execute the actor move left command

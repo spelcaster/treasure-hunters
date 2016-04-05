@@ -1,6 +1,6 @@
 // Copyright 2015 <https://github.com/spelcaster>
 
-#include "include/Terrain.hpp"
+#include "../include/Terrain.hpp"
 
 //! Terrain constructor
 Terrain::Terrain() {
@@ -24,6 +24,6 @@ void Terrain::setMovementCost(float cost) {
  *
  * @returns The movement cost of the tile
  */
-const float Terrain::getMovementCost() {
+float Terrain::getMovementCost() {
     return movement_cost;
 }

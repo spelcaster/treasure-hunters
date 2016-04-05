@@ -1,7 +1,7 @@
 // Copyright 2015 <https://github.com/spelcaster>
 
-#include "include/StartCommand.hpp"
-#include "include/Player.hpp"
+#include "../include/StartCommand.hpp"
+#include "../include/Player.hpp"
 
 /*!
  * @brief

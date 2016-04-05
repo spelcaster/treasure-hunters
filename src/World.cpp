@@ -2,11 +2,11 @@
 
 #include <iostream>
 
-#include "include/World.hpp"
-#include "include/Constants.hpp"
-#include "include/VideoSettings.hpp"
-#include "include/RandomGenerator.hpp"
-#include "include/exception/ResourceNotFoundException.hpp"
+#include "../include/World.hpp"
+#include "../include/Constants.hpp"
+#include "../include/VideoSettings.hpp"
+#include "../include/RandomGenerator.hpp"
+#include "../include/exception/ResourceNotFoundException.hpp"
 
 //! World constructor
 World::World() {

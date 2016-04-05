@@ -1,6 +1,6 @@
 // Copyright 2015 <https://github.com/spelcaster>
 
-#include "include/AudioSettings.hpp"
+#include "../include/AudioSettings.hpp"
 
 //! AudioSettings constructor
 AudioSettings::AudioSettings() {

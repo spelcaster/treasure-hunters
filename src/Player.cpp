@@ -1,7 +1,7 @@
 // Copyright 2015 <https://github.com/spelcaster>
 
-#include "include/Player.hpp"
-#include "include/Constants.hpp"
+#include "../include/Player.hpp"
+#include "../include/Constants.hpp"
 
 //! Player constructor
 Player::Player() {

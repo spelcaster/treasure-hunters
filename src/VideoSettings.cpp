@@ -1,6 +1,6 @@
 // Copyright 2015 <https://github.com/spelcaster>
 
-#include "include/VideoSettings.hpp"
+#include "../include/VideoSettings.hpp"
 
 //! VideoSettings constructor
 VideoSettings::VideoSettings() :
