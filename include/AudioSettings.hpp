@@ -36,7 +36,7 @@ class AudioSettings {
      *
      * @returns The sound effects volume
      */
-    const int getFxVolume();
+    int getFxVolume();
 
     /*!
      * @brief Set the sound effects volume
@@ -50,7 +50,7 @@ class AudioSettings {
      *
      * @returns The music volume
      */
-    const int getMusicVolume();
+    int getMusicVolume();
 
     /*!
      * @brief Get the music volume
@@ -64,7 +64,7 @@ class AudioSettings {
      *
      * @returns The environment souns volume
      */
-    const int getEnvironmentVolume();
+    int getEnvironmentVolume();
 
     /*!
      * @brief Set the environment sounds volume
