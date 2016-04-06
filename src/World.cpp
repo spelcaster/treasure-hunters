@@ -59,8 +59,7 @@ const Terrain& World::getTile(int row, int column) const {
 void World::loadResources() {
     initializeWorldTiles();
 
-    // Must change the path where resource is located
-    if (!texture.loadFromFile("../res/texture/texture.png")) {
+    if (!texture.loadFromFile("res/texture/texture.png")) {
         throw ResourceNotFoundException;
     }
 
