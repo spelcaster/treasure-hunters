@@ -36,14 +36,17 @@ LIBS = $(SFML_LIBS)
 SOURCES = $(wildcard src/*.cpp)
 
 # define the program object files
-OBJ_FILES = $(addprefix build/, $(notdir $(SOURCES:.cpp=.o)))
+OBJ_FILES = $(addprefix obj/, $(notdir $(SOURCES:.cpp=.o)))
 
 # define the executable
 EXECUTABLE = build/game
 
-.PHONY: all clean
+# other stuff
+RESOURCES = build/res
 
-all: $(SOURCES) $(EXECUTABLE)
+.PHONY: clean
+
+all: $(SOURCES) $(EXECUTABLE) $(RESOURCES)
 
 $(EXECUTABLE): $(OBJ_FILES)
 	$(CXX) $(CXXFLAGS) $(INCLUDES) -o $@ $(OBJ_FILES) $(LFLAGS) $(LIBS)
@@ -53,9 +56,12 @@ $(EXECUTABLE): $(OBJ_FILES)
 # $< - the name of the prerequisite of the rule (a .cpp file)
 # $@ - the name of the target of the rule (a .o file)
 # (see the GNU make manual section about automatic variables)
-build/%.o:src/%.cpp
+obj/%.o:src/%.cpp
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
+$(RESOURCES):
+	ln -s ../res $(RESOURCES)
+
 clean:
-	$(RM) $(OBJ_FILES) $(EXECUTABLE)
+	$(RM) $(RESOURCES) $(OBJ_FILES) $(EXECUTABLE)
 
