@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-#include "include/Game.hpp"
+#include "../include/Game.hpp"
 
 //! Game constructor
 Game::Game() {

@@ -1,6 +1,6 @@
 // Copyright 2015 <https://github.com/spelcaster>
 
-#include "include/KeyboardInputHandler.hpp"
+#include "../include/KeyboardInputHandler.hpp"
 
 //! KeyboardInputHandler constructor
 KeyboardInputHandler::KeyboardInputHandler() {

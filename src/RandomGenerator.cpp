@@ -1,6 +1,6 @@
 // Copyright 2015 <https://github.com/spelcaster>
 
-#include "include/RandomGenerator.hpp"
+#include "../include/RandomGenerator.hpp"
 
 //! Constructor for RandomGenerator
 RandomGenerator::RandomGenerator() {

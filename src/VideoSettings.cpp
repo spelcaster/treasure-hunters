@@ -1,6 +1,6 @@
 // Copyright 2015 <https://github.com/spelcaster>
 
-#include "include/VideoSettings.hpp"
+#include "../include/VideoSettings.hpp"
 
 //! VideoSettings constructor
 VideoSettings::VideoSettings() :
@@ -41,7 +41,7 @@ void VideoSettings::setWindowDimension(int width, int height) {
  *
  * @returns The window style code
  */
-const unsigned long VideoSettings::getWindowStyle() {
+unsigned long VideoSettings::getWindowStyle() {
     return window_style;
 }
 
@@ -68,6 +68,6 @@ const sf::Vector2i  VideoSettings::getWindowPosition() {
  *
  * @returns The window framerate limit
  */
-const int VideoSettings::getFramerateLimit() {
+int VideoSettings::getFramerateLimit() {
     return framerate_limit;
 }

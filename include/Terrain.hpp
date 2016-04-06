@@ -35,7 +35,7 @@ class Terrain: public sf::Sprite {
      *
      * @returns The movement cost of the tile
      */
-    const float getMovementCost();
+    float getMovementCost();
 };
 
 #endif  // __DCW_TERRAIN_H__

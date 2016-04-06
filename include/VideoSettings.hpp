@@ -61,7 +61,7 @@ class VideoSettings {
      *
      * @returns The window style code
      */
-    const unsigned long getWindowStyle();
+    unsigned long getWindowStyle();
 
     /*!
      * @brief Set the window style
@@ -82,7 +82,7 @@ class VideoSettings {
      *
      * @returns The window framerate limit
      */
-    const int getFramerateLimit();
+    int getFramerateLimit();
 };
 
 #endif  // __DCW_VIDEO_SETTINGS_H__

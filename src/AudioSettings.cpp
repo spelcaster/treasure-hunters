@@ -1,6 +1,6 @@
 // Copyright 2015 <https://github.com/spelcaster>
 
-#include "include/AudioSettings.hpp"
+#include "../include/AudioSettings.hpp"
 
 //! AudioSettings constructor
 AudioSettings::AudioSettings() {
@@ -18,7 +18,7 @@ AudioSettings::~AudioSettings() {
  *
  * @returns The sound effects volume
  */
-const int AudioSettings::getFxVolume() {
+int AudioSettings::getFxVolume() {
     return fx_volume;
 }
 
@@ -36,7 +36,7 @@ void AudioSettings::setFxVolume(int value) {
  *
  * @returns The music volume
  */
-const int AudioSettings::getMusicVolume() {
+int AudioSettings::getMusicVolume() {
     return music_volume;
 }
 
@@ -54,7 +54,7 @@ void AudioSettings::setMusicVolume(int value) {
  *
  * @returns The environment souns volume
  */
-const int AudioSettings::getEnvironmentVolume() {
+int AudioSettings::getEnvironmentVolume() {
     return environment_volume;
 }
 
